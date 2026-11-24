@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Castor Desk
+Comment=Unofficial Linux Desktop Client for Google Gemini
+GenericName=AI Assistant
+Exec=castor-desk %U
+Icon=castor-desk
+Type=Application
+StartupNotify=true
+Categories=Utility;Development;
+Keywords=castor;desk;ai;assistant;chat;llm;google;gemini;
+StartupWMClass=castor-desk
+MimeType=x-scheme-handler/gemini;
+Actions=NewChat;
+
+[Desktop Action NewChat]
+Name=Nuevo chat
+Exec=castor-desk

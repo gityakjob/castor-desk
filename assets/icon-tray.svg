@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="trayCastorRingGrad" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="55%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <radialGradient id="trayCastorPrimary" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#F0F9FF"/>
+      <stop offset="55%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </radialGradient>
+    <radialGradient id="trayCastorCompanion" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FEFCE8"/>
+      <stop offset="55%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </radialGradient>
+  </defs>
+  <path d="M 93.1 32.9 A 44 44 0 1 0 93.1 95.1"
+        fill="none"
+        stroke="url(#trayCastorRingGrad)"
+        stroke-width="15"
+        stroke-linecap="round"/>
+  <circle cx="62" cy="64" r="16" fill="url(#trayCastorPrimary)"/>
+  <circle cx="106" cy="64" r="11" fill="url(#trayCastorCompanion)"/>
+</svg>

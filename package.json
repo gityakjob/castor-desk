@@ -1,0 +1,31 @@
+{
+  "name": "castor-desk",
+  "version": "1.0.0",
+  "description": "Castor Desk — Unofficial open-source Linux desktop wrapper for Google Gemini on CachyOS / Arch Linux",
+  "main": "app/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gityakjob/castor-desk.git"
+  },
+  "homepage": "https://github.com/gityakjob/castor-desk",
+  "scripts": {
+    "start": "electron38 .",
+    "start:wayland": "electron38 --ozone-platform-hint=auto --enable-features=WaylandWindowDecorations .",
+    "install:user": "./install.sh",
+    "uninstall:user": "./uninstall.sh"
+  },
+  "keywords": [
+    "castor-desk",
+    "castor",
+    "ai",
+    "unofficial",
+    "desktop",
+    "cachyos",
+    "arch-linux",
+    "electron",
+    "wayland",
+    "gemini"
+  ],
+  "author": "gityakjob",
+  "license": "MIT"
+}

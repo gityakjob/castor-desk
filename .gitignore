@@ -1,0 +1,13 @@
+# Guía interna del agente/desarrollador (excluida del repo público y releases)
+INTERNAL_DEV_GUIDE.md
+.PROJECT_INTERNAL_GUIDE.md
+*.internal.md
+
+node_modules/
+*.log
+*.tar.zst
+*.tar.gz
+pkg/
+src/
+dist/
+.DS_Store
